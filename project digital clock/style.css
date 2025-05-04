@@ -1,0 +1,44 @@
+
+body{
+    background: radial-gradient(circle, #0a0aa3, #09098f, #040449);
+    margin: 0;
+   height: 70vh;
+   font-family: "Lobster";
+   font-size: 2rem;
+   font-weight: 400;
+}
+.clock{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    min-width: 350px;
+    min-height: 54px;
+    border-radius: 13px 0 13px 0;
+    background-color:  rgba(255, 232, 205, 0.204);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.46);
+    font-size: 1.2rem;
+}
+button{
+    min-width: 40px;
+    min-height: 60px;
+    border-radius:  10px 0 10px 0;
+   background-color: rgba(255, 232, 205, 0.204);
+   font-family: "Lobster", sans-serif;
+   font-size: 1.5rem;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.46);
+}
+.timezones{
+    min-width: 300px;
+    margin: 20px auto 0; /* top auto bottom */
+    text-align: center;
+}
+.currTime{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
